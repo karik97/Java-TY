@@ -12,16 +12,18 @@ public class print_without_duplicate {
 		for( int i=0; i<arr.length; i++) {
 		    lh.add(arr[i]);
 		}
-		int c=0;
 		for(Integer l:lh) {
+			int c=0;
 			for(int i=0; i<arr.length; i++)
 			{
 				if(l==arr[i])
 				{
 					c++;
-					System.out.println(c);
 				}
-			}		
+			}	
+			if(c==1) {
+				System.out.println(l);
+			}
 		}
 	}
 

@@ -8,18 +8,17 @@ public class RebvereseSetance {
 		 for(int i=k.length-1; i>=0; i--) {
 			// System.out.print(k[i]+" ");
 		 }
-		 
-
+		
 		 String[] k1 = "i am from bangalore".split("");//erolagnab morf ma i
 		 for(int i=k1.length-1; i>=0; i--) {
 			// System.out.print(k1[i]);
 		 }
-		 
+		
 		 String[] k11 = "i am from bangalore".split(" ");//i ma morf erolagnab 
 		 for(int i=0; i<k11.length; i++) {
-		    // String s = k11[i];
-		     for(int j=k11[i].length()-1;j>=0; j-- ) {
-		    	 System.out.print(k11[i].charAt(j));
+		     String s = k11[i];
+		     for(int j=s.length()-1;j>=0; j-- ) {
+		    	 System.out.print(s.charAt(j));
 		     }System.out.print(" ");
 		 }
 		 

@@ -10,7 +10,7 @@ public class SumofdigitinString {
 			char ch = s.charAt(i);
 			if(ch>=48 && ch<=57) {
 				sum=sum+ch-48;
-				//System.out.println(0+ch-48);
+				//System.out.println(ch-48);
 			}
 		}//System.out.println(sum);
 		

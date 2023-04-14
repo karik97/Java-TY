@@ -13,7 +13,7 @@ public class MaxLengthString {
 		}
 		for(int o=0; o<a.length; o++) {
 			if(a[o].length()==maxlength.length()) {
-				//System.out.println(a[o]);
+				System.out.println(a[o]);
 			}
 		}
 	}

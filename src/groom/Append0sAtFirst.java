@@ -23,31 +23,25 @@ public class Append0sAtFirst {
 		}
 		for(int j=0; j<arr.length; j++)
 		{
-			System.out.println(b[j]+" ");
+			//System.out.println(b[j]+" ");
 		}
 		
-		int [] arr1= {0,1,0,0,1};
-		int [] b1=new int[arr1.length];
-		int m1=0; 
-		int n1=arr1.length-1;
-		for(int i=0; i<arr1.length; i++)
-		{
-			if(arr1[i]!=0)
-			{
-				b1[m1]=arr1[i];
-				m1++;
+		
+		for(int i=0; i<arr.length; i++) {
+			int temp=arr[0];
+			for(int j=0; j<1; j++) {
+				try {
+					arr[j]=arr[j+1];
+				}
+				catch (Exception e) {}					
 			}
-			else
-			{
-				b1[n1]=arr1[i];
-				n1--;
-			}
+			arr[arr.length-1]=temp;					
 		}
-		for(int j=0; j<arr1.length; j++)
-		{
-			System.out.println(b1[j]+" ");
+		
+		for(int k=0; k<arr.length; k++) {
+			System.out.println(arr[k]);
 		}
-	
+		
 	}
 
 }

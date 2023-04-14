@@ -5,7 +5,7 @@ public class Count_Occurence {
 
 	public static void main(String[] args) {
 		
-		char[] arr = "aabbcettrrraaee".toCharArray();
+		char[] arr = "aabbcettrrraee".toCharArray();
         for(int i=0; i<arr.length; i++)
         {  	
         	int c=1;
@@ -14,12 +14,11 @@ public class Count_Occurence {
         		if(arr[i]==arr[j]) {
         			c++;
         		}
-        		else {
-                    break;
-                    }
+        		else {  break;   }
         	}
-        	System.out.print(arr[i]);System.out.print(c);   		
-    		i+=c-1;       	
+        	System.out.print(arr[i]+""+c);  		
+    		i+=c-1;  
+        	
         } 
 	}
 }

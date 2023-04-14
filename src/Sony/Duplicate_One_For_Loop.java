@@ -15,6 +15,7 @@ public class Duplicate_One_For_Loop {
 			seen[index]++;
 			if(seen[index]==2) {
 				//System.out.println((char)(index+'a'));
+				System.out.println(s.charAt(i));
 				break;
 			}
 	}

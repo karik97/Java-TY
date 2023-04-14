@@ -7,7 +7,6 @@ import java.util.Set;
 public class RemoevDuplicate {
 
 	public static void main(String[] args) {
-		//-------------------------------------------------------------- remove duplicate  -----------------------------//
 		
 		Set<Integer> set=new HashSet<>();
 		int [] a= {2,4,4,6,5,6};
@@ -18,9 +17,7 @@ public class RemoevDuplicate {
 		for(Integer s:set) {
 			System.out.println(s);
 		}
-	//-------------------------------------------------------------- remove duplicate with count -----------------------------//
-		
-		System.out.println("------ remove duplicate with count ----");
+	
 		
 		LinkedHashSet<Integer> lh = new LinkedHashSet<>();
 		for(int i=0; i<a.length; i++) {
@@ -35,11 +32,10 @@ public class RemoevDuplicate {
 				if(h==a[j]) {  
 					m++;
 					}
-			}System.out.println(h+" "+m);		
-			
-System.out.println("-------------------------------------");			
+			}	
+		
 			if(m>1) {
-				System.out.println(h+" "+m);
+				System.out.println(h+" "+m);//remove duplicate with count
 				}
 		}
 	}

@@ -19,12 +19,25 @@ public class Substring {
         
         for (int i=0; i<s.length()-1; i++) {
            
-            set.add(s.substring(i, i + 2));
-                       
+            set.add(s.substring(i, i + 2));                      
         }
  
         System.out.println(set);
         
+         String[] s1 = "apple application apploi apploii".split(" ");
+        
+        Set<String> set1 = new LinkedHashSet<String>();
+       
+       for (int i=0; i<s1.length-1; i++) {
+          
+                                
+       }
+
+       System.out.println(set1);
+        
+       for(int i=0; i<s.length()-1; i++) {
+			System.out.println(s.substring(i, i+2)); //possible substring
+		}
 	}
 
 }
