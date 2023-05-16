@@ -21,7 +21,7 @@ public class print_without_duplicate {
 					c++;
 				}
 			}	
-			if(c==1) {
+			if(c==2) {
 				System.out.println(l);
 			}
 		}

@@ -7,6 +7,12 @@ public class pgm11 {
 		String value = "a!@b$%cc";
 		String ref = "";
 		
+		
+		
+		
+		
+		
+		
 		for (int i = 0; i < value.length(); i++) 
 		{
 			if(Character.isLowerCase(value.charAt(i)) || Character.isUpperCase(value.charAt(i)) || Character.isDigit(value.charAt(i)))
@@ -29,6 +35,7 @@ public class pgm11 {
 			}
 		}
 		System.out.println(fans);
+		
 
 	}
 

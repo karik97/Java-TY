@@ -15,7 +15,7 @@ public class RemoevDuplicate {
 			set.add(a[i]);
 		}
 		for(Integer s:set) {
-			System.out.println(s);
+			//System.out.println(s);
 		}
 	
 		
@@ -35,7 +35,7 @@ public class RemoevDuplicate {
 			}	
 		
 			if(m>1) {
-				System.out.println(h+" "+m);//remove duplicate with count
+				System.out.println(h);//remove duplicate with count
 				}
 		}
 	}

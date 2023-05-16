@@ -4,7 +4,7 @@ public class pgm21 {
 
 	public static void main(String[] args) 
 	{
-		String value = "apple applium application";
+		String value = "app applium application";
 		String[] arr = value.split(" ");
 		String ans = "";
 		

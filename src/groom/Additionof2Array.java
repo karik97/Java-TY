@@ -15,7 +15,7 @@ public class Additionof2Array {
 		for(int i=0; i<l; i++)
 		{
 			try {
-				System.out.println(a[i]+b[i]);
+				System.out.println(+a[i]+b[i]);
 			}
 			catch(Exception e) {
 				if(a.length>b.length)

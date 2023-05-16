@@ -14,11 +14,16 @@ public class pgm4 {
 			//System.out.println(value.substring(i,i+2));
 			arr.add(value.substring(i,i+2));
 		}
-			System.out.println("Substring Array --->"+arr);
+			System.out.print("Substring Array --->"+arr);
 		
 		// Removing Duplicates from the Given Array
 		TreeSet<Object> arr1 = new TreeSet<>(arr);
-		System.out.println("Substring Array Without Duplicates --->"+arr1);
+		//System.out.println("Substring Array Without Duplicates --->"+arr1);
+		
+		//other way
+		for(int i=0; i<value.length()-1; i++) {
+			System.out.print(value.substring(i, i+2)+" ");
+		}
 	}
 
 }

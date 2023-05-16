@@ -4,11 +4,11 @@ public class pgm10 {
 
 	public static void main(String[] args) {
 		// Find the Armstorng Number
-		int no = 1634;
+		int no = 145;
 		int temp = no; int temp2 = no;
 		int givenNoCount = 0;
 		int sum = 0;
-		
+
 		//Find the Count of the Given Number
 		while(no!=0)
 		{
@@ -16,7 +16,7 @@ public class pgm10 {
 			givenNoCount++;
 		}
 		//System.out.println(givenNoCount);
-		
+
 		// Sum the Number
 		while(temp!=0)
 		{
@@ -24,13 +24,14 @@ public class pgm10 {
 			sum += Math.pow(rem, givenNoCount);
 			temp = temp/10;
 		}
-		
+
 		// Assertion
 		if(temp2==sum)
 		{
 			System.out.println("Armstrong");
+		}else
+		{System.out.println("Not Armstrong Number");
 		}
-
 	}
 
 }

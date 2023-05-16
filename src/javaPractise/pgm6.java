@@ -16,7 +16,7 @@ public class pgm6 {
 			{
 				if(arr[i]+arr[j]==15)
 				{
-					//System.out.println(arr[i]+" "+arr[j]);
+					System.out.print(arr[i]+" "+arr[j]+" ");
 				}
 			}
 		}

@@ -9,7 +9,7 @@ public class ReverseString {
         for(int i=k.length()-1; i>=0; i--)
         {
         	rev=rev+k.charAt(i);
-        }//System.out.println(rev);
+        }System.out.println(rev);
 
        char[] a = "kartik".toCharArray();
        for(int i=a.length-1; i>=0; i--) {
@@ -19,7 +19,7 @@ public class ReverseString {
         String r = "kartik";
         for(int i=r.length()-1; i>=0; i--)
         {
-        	//System.out.println(r);
+        	System.out.println(r);
         }
         
         char[] a1 = "kartik".toCharArray();
@@ -28,7 +28,7 @@ public class ReverseString {
         	c++;
         }
         for(int i=c-1; i>0; i--) {
-     	   //System.out.println(a1[i]);
+     	   System.out.println(a1[i]);
         }
 	}
 

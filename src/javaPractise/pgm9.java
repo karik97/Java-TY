@@ -12,16 +12,16 @@ public class pgm9 {
 		System.out.println(fib2);
 		for(; fib3<=50  ; )
 		{
-			System.out.println(fib3);
+			//System.out.println(fib3);
 
 			fib1 = fib2;
 			fib2 = fib3;
 			fib3 = fib1+fib2;
 
-			if(fib3%5==0 && fib3%3==0)
+			if(fib3%3==0 && fib3%5==0)
 			{
 				System.out.println(fib3);
-				break;	
+				//break;	
 			}
 		}
 	}

@@ -20,7 +20,7 @@ public class Occurence_of_word_String {
 				}
 			}System.out.println(set+" is present in "+c+" time");
 			if(c>=2) {
-				//System.out.println(c+" duplicates");
+				System.out.println(c+" duplicates");
 			}
 		}
 	}

@@ -17,7 +17,7 @@ public class PrintPositionwithoutDuplicate {
 			for(int i=0; i<st.length(); i++)
 			{
 				if(ch==st.charAt(i)) {
-					//System.out.println(ch+" is in "+(i+1)+" position");
+					System.out.println(ch+" is in "+(i+1)+" position");
 					break;
 				}
 			}
@@ -34,7 +34,7 @@ public class PrintPositionwithoutDuplicate {
 			for(int i=st1.length()-1; i>=0; i--)
 			{
 				if(ch==st1.charAt(i)) {
-					System.out.println(ch+" is in "+(i+1)+" position");
+					//System.out.println(ch+" is in "+(i+1)+" position");
 					break;
 				}
 			}       	

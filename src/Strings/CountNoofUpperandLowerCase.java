@@ -9,7 +9,7 @@ public class CountNoofUpperandLowerCase {
 		for(;;) {
 			Scanner sc = new Scanner(System.in);
 			System.out.println("enter input");
-			String k=sc.next();
+			String k="mjKJnJNJnnnNJnNnJN";
 			int u=0;  int l=0;
 			for(int i=0; i<k.length(); i++)
 			{

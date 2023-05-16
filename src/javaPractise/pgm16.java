@@ -13,13 +13,14 @@ public class pgm16 {
 			{
 				System.out.print(" ");
 			}
+			
 			for(int k=1; k<=star; k++)
 			{
 				System.out.print(n);
-
 				if(k>(star/2)) 
+					
 				n--;
-				else
+				else 
 				n++;
 			}
 		

@@ -16,7 +16,7 @@ public class Occurnece_Without_Collection {
         		else {
                     break;}
         	}
-        	System.out.print(arr[i]);System.out.print(c);   		
+        	System.out.print(arr[i]+""+c);		
     		i+=c-1;
         	
         }
