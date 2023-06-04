@@ -11,7 +11,7 @@ public class Duplicate_One_For_Loop {
 		int [] seen= new int [26];
 
 		for(int i=0; i<s.length(); i++) {
-			int index = s.charAt(i) -'a';
+			int index = s.charAt(i) -97;
 			seen[index]++;
 			if(seen[index]==2) {
 				System.out.println(s.charAt(i));
